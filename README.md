@@ -1,0 +1,2 @@
+# hide-google-upgrade-extension
+
