@@ -1,0 +1,12 @@
+/* Hides the Workspace "Upgrade" button */
+#workspace-onegoogle-pep-container,
+[aria-label*="Upgrade"],
+a[href*="one.google.com"] {
+  display: none !important;
+}
+
+/* Hides the adjacent Gemini sparkle / AI prompt icons */
+.appsElementsSidekickAuroraEntryPointRoot,
+#docs-sidekick-gen-ai-promo-button-container {
+  display: none !important;
+}
